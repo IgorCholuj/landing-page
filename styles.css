@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    background: #eee;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    min-height: 250px;
+    max-height: 250px;
+}
