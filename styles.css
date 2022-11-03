@@ -79,7 +79,7 @@ button {
     color: black;
     font-size: 30px;
     font-weight: 600;
-    margin-top: 20px;
+    margin-top: 70px;
     margin-bottom: 20px;
 }
 
@@ -113,4 +113,39 @@ button {
 
 .text1, .text2, .text3, .text4 {
     text-align: center;
+}
+
+.quote-container {
+    height: 400px;
+    width: auto;
+    background-color: #c4c8cf;
+    display: flex;
+    margin-top: 70px;
+    justify-content: center;
+}
+
+.cock {
+    max-width: 750px;
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-family: light;
+    font-size: 36px;
+    color: #1F2937;
+    min-width: 750px;
+    font-style: italic;
+}
+
+.signature-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+
+.quote-signature {
+    font-weight: bold;
+    font-style: italic;
 }
