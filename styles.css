@@ -22,6 +22,8 @@ body {
 
 .links {
     margin-right: 225px;
+    display: flex;
+    gap: 20px;
 }
 
 .link {
@@ -65,7 +67,7 @@ body {
     font-style: italic;
 }
 
-button {
+.button1 {
     background-color: rgb(28, 82, 199);
     width: 100px;
     border: none;
@@ -148,4 +150,62 @@ button {
 .quote-signature {
     font-weight: bold;
     font-style: italic;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+}
+
+.blue-container {
+    height: 100px;
+    width: 1000px;
+    display: flex;
+    background-color: rgb(53, 121, 223);
+    margin: 100px;
+    border-radius: 3px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.blue-inside {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-text-m {
+    margin-left: 75px;
+    color: white;
+    font-weight: 900;
+}
+
+.signup-text-s {
+    margin-left: 75px;
+    color: #c4c8cf;
+}
+
+.button2 {
+    margin-left: 295px;
+    margin-right: 75px;
+    background-color: rgb(53, 121, 223);
+    width: 85px;
+    border: none;
+    border-radius: 5px;
+    color: #e5e7eb;
+    height: 25px;
+    outline: 1px solid white;
+    font-weight: 500;
+}
+
+.bottom {
+    background-color: #1F2937;
+    height: 80px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    color: #e5e7eb;
 }
