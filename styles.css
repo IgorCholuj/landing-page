@@ -46,11 +46,11 @@ body {
 }
 
 .photo {
-    width: 350px;
-    height: 200px;
-    background-color: pink;
+    width: 450px;
+    height: 225px;
     margin-right: 225px;
     margin-top: 70px;
+    border-radius: 25px;
 }
 
 .main-text {
@@ -73,4 +73,44 @@ button {
     color: #e5e7eb;
     height: 30px;
     margin-top: 10px;
+}
+
+.mtext {
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.img1, .img2, .img3, .img4 {
+    height: 150px;
+    width: 150px;
+    outline: 5px solid pink;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.mid {
+    display: flex;
+    justify-content: center;
+}
+
+.mid2 {
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+}
+
+.info1, .info2, .info3, .info4 {
+    max-width: 150px;
+}
+
+.mid2 > .text1, .text2, .text3, .text4 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text1, .text2, .text3, .text4 {
+    text-align: center;
 }
